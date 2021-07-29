@@ -1,0 +1,27 @@
+package packone;
+
+import java.util.ArrayList;
+//import java.util.Set;
+import java.util.HashSet;
+import java.util.Set;
+//import java.util.set;
+
+
+public  class  oneclass {
+	
+	
+	public static void main(String[] args) {
+		
+		
+        Set obj= new HashSet(); 
+  
+        obj.add("abc"); 
+        obj.add("xyz"); 
+        System.out.println(obj);
+       
+		
+		
+		
+	}
+	
+	}

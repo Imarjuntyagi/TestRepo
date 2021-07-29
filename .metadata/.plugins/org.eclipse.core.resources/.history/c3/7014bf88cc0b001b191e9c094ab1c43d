@@ -1,0 +1,16 @@
+package Packagemaven;
+
+public class Classmaven {
+	
+	
+	@Test
+	public void testcase()
+	
+	{
+		
+		
+	}
+	
+	
+
+}

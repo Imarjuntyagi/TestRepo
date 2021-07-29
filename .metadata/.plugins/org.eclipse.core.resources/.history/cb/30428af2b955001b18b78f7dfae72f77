@@ -1,0 +1,14 @@
+package AllPages;
+
+import org.openqa.selenium.By;
+
+public class Loginpage {
+	
+	
+	By User_name=By.xpath("//*[@id=\\\"icon\\\"]");
+	By PassWord=By.xpath("//input[@placeholder='Password']");
+	By submit_button=By.xpath("//button[@id='login-btn']");
+	
+	
+
+}

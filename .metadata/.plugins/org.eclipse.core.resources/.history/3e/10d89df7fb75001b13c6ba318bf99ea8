@@ -1,0 +1,37 @@
+package PromoTest;
+
+import java.util.Random;
+import java.util.concurrent.ThreadLocalRandom;
+
+import org.junit.BeforeClass;
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+
+public class aa {
+ 
+	public static void main(String[] args) {
+	
+		
+		int[] randomnumbers= {100,200,201,202,301,302,307,308,400,401,403,404,408,500,502,503,504};
+		Random x=new Random();
+		int nextRandomnumberindex=x.nextInt(randomnumbers.length);
+		System.out.println(randomnumbers[nextRandomnumberindex]);
+		
+		//int[] randomnumbers= {100,200,201,202,301,302,307,308,400,401,403,404,408,500,502,503,504};
+
+		
+}
+}
+	
+	
+
+	

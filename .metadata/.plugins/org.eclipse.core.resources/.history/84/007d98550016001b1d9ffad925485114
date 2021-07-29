@@ -1,0 +1,30 @@
+package resources;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+
+public class base {
+	
+	public void initialisebrowser() throws IOException
+	
+	{
+		FileInputStream fs=new FileInputStream("/home/arjun/eclipse-workspace/edggfggfd/src/main/java/resources/data.properties");
+		 Properties prop=new Properties();
+		 prop.load(fs);
+		 
+		 String browsername=prop.getProperty("browser");
+		 if(browsername.equals("FireFox"))
+		 {
+	System.setProperty("webdriver.chrome.driver","/home/arjun/Downloads/chromedriver_linux64 (1)/chromedriver.exe");
+ 
+		 }
+		 else if(browsername.equals("Chrome"))
+		 {
+			 
+		 }
+		 
+	}
+
+}

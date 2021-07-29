@@ -1,0 +1,28 @@
+package artidpackage;
+
+import org.testng.annotations.Test;
+import org.testng.annotations.Test;
+
+public class Happy {
+
+	public static void main(String[] args) {
+
+		int[] a;
+		a = new int[4];
+
+		int[] b = new int[] { 1, 2, 3, 4, 8, 0, 2, 1 };
+
+//		for (int i = 0; i < b.length; i++)
+//
+//		{
+//			System.out.println(b[i]);
+//		}
+		
+		for(int i;b.length)
+		{
+		System.out.println(i);	
+			
+		}
+
+	}
+}

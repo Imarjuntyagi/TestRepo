@@ -1,0 +1,9 @@
+package packone;
+
+public class oneclass {
+
+	public static void main(String[] args) {
+System.out.println("Hello ");
+	}
+
+}

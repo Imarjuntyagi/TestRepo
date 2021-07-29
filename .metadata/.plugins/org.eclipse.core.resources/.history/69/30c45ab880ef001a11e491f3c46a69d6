@@ -1,0 +1,15 @@
+package packone;
+
+public abstract class  oneclass {
+
+	public static void main(String[] args) 
+	{
+		void happy()
+		{
+			System.out.println("Happy void");
+		}
+		
+		System.out.println("Hello");
+	}
+
+}

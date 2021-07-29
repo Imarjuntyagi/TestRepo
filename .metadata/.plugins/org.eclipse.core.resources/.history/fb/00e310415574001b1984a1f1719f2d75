@@ -1,0 +1,7 @@
+package NewPAck;
+
+public class NewPAckclass {
+
+	public static void main(String[] args) {
+	}
+}

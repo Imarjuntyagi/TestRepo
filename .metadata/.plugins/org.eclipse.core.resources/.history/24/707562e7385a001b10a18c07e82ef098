@@ -1,0 +1,22 @@
+package PromoTest;
+
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+
+public class aa {
+
+	public void opening() {
+
+	}
+
+	public void met1() {
+
+	}
+
+	public void met2() {
+
+	}
+
+	public void last() {
+
+	}
+}

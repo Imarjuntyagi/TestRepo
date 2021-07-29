@@ -1,0 +1,30 @@
+package pack;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+class subclass extends classone {
+	void happy()
+
+	{
+		System.out.println("class 2");
+
+	}
+
+}
+
+public class classone {
+
+	void happy()
+
+	{
+		System.out.println("class one");
+
+	}
+
+	public static void main(String[] args) {
+		classone pp = new classone();
+		pp.happy();
+	}
+
+}

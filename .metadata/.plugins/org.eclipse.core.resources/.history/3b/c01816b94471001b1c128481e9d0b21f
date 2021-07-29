@@ -1,0 +1,19 @@
+package pack;
+
+import java.io.IOException;
+
+
+
+public class classone 
+{
+
+	public static void main(String[] args) {
+		 String strTest = "1dfsdsdf00";
+		    int iTest = Integer.parseInt(strTest);
+		    System.out.println("Actual String:"+ strTest);
+		    System.out.println("Converted to Int:" + iTest);
+		    //This will now show some arithmetic operation
+		
+	}
+
+}

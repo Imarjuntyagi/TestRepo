@@ -1,0 +1,25 @@
+package Datapac;
+public class Test {
+	public static void main(String[] args) {
+		String s;
+        s = "aabbb";
+        
+        letters(s);
+        
+        System.out.println(letters(s));
+    }
+    
+    public static boolean letters(String s) {
+        
+        
+        if (s.equalsIgnoreCase("ab")) { //|| !s.contains("aaa") || s.contains("b")) {
+            return true;
+            
+        } else {
+            return false;
+        }
+        
+    
+
+	
+}}

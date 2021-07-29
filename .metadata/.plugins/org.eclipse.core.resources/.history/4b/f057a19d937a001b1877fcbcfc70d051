@@ -1,0 +1,37 @@
+package PromoTest;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+abstract class qqa {
+	void nonabstract()
+
+	{
+
+		System.out.println("nonabstract this is ");
+	}
+
+	abstract void abstractmethod();
+
+}
+
+public class aa extends qqa
+
+{
+
+	void abstractmethod()
+
+	{
+		System.out.println("this is very good method ");
+
+	}
+
+	public static void main(String[] args) {
+		
+aa kk=new aa();
+kk.abstractmethod();
+	}
+}

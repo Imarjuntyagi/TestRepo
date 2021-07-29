@@ -1,0 +1,33 @@
+package TestCases;
+
+import org.json.simple.JSONObject;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+import io.restassured.http.Method;
+import io.restassured.response.Response;
+import io.restassured.specification.RequestSpecification;
+
+public class Login {
+	
+	
+	@Test
+	
+	public void reg()
+	
+	{
+		
+		
+		Response response=RestAssured.get("https://hulstaging.kartrocket.co/index.php?route=feed/api/v1/account/getCustomerStore&key=98f13708210194c475687be6106a3b99");
+
+		
+System.out.println(response.asString());		
+	
+		
+		
+		
+		
+	}
+
+}

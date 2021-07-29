@@ -1,0 +1,33 @@
+package pack;
+
+import java.io.IOException;
+
+ interface  Animal {
+	  // Abstract method (does not have a body)
+	  public abstract void animalSound();
+	  // Regular method
+	  public abstract void sleep() ;
+	}
+
+	// Subclass (inherit from Animal)
+	class Pig implements Animal {
+		
+		  public  void sleep() 
+		  {
+			  System.out.println("ewfwfwe");
+			  
+		  }
+	  public void animalSound() {
+	    // The body of animalSound() is provided here
+	    System.out.println("The pig says: wee wee");
+	  }
+	}
+
+	class classone {
+	  public static void main(String[] args) {
+	    Pig myPig = new Pig(); // Create a Pig object
+	    myPig.animalSound();
+	    myPig.sleep();
+	  }
+	}
+

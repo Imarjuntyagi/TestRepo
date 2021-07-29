@@ -1,0 +1,18 @@
+package Datapac;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Test {
+public static void main(String[] args) {
+	System.setProperty("webdriver.chrome.driver",
+			"/home/arjun/eclipse-workspace/Admincode/Chromedriver/chromedriver.exe");
+	
+	WebDriver driver = new ChromeDriver();
+	
+	driver.get("https://www.worldometers.info/world-population/");
+	String aa=driver.findElement(By.xpath("//span[@class='rts-counter']")).getText();
+	System.out.println(aa);
+}
+}

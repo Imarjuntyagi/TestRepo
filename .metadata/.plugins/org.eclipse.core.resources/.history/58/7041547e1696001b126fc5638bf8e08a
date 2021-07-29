@@ -1,0 +1,31 @@
+package packone;
+
+import java.util.ArrayList;
+//import java.util.Set;
+import java.util.HashSet;
+import java.util.Set;
+//import java.util.set;
+
+public class oneclass {
+
+	public static void main(String[] args) {
+		
+		 String kk="Hello";
+		 
+		 switch(kk)
+		 
+		 {
+		 case "Hello":
+			 System.out.println("hello");
+		 break;
+		 
+		 case "pop":
+			 System.out.println("pop");
+		 break;
+		
+		 }
+		
+		System.out.println();
+	}
+
+}

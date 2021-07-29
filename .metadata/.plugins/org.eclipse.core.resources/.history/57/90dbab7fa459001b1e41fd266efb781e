@@ -1,0 +1,80 @@
+package PromoTest;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+public class promtest {
+	
+	
+	@Test
+	
+	public void prom() throws InterruptedException
+	
+	{
+		
+		
+		System.setProperty("webdriver.chrome.driver",
+				"/home/arjun/eclipse-workspace/Admincode/Chromedriver/chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://hulstaging.kartrocket.co/admin/index.php?route=common/login/employee");
+		driver.manage().deleteAllCookies();
+		driver.manage().window().maximize();
+		driver.findElement(By.xpath("//*[@id=\"icon\"]")).sendKeys("dhruv.sharma");
+		driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys("dhruv123");
+		driver.findElement(By.xpath("//button[@id='login-btn']")).click();
+		driver.findElement(By.xpath("//button[@onclick=\"login('admin')\"]")).click();
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("/html/body/div[3]/nav/div/ul/li[14]/a/span")).click();
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("/html/body/div[3]/div[3]/div[2]/div/article/header/ul/li[1]/a")).click();
+		Thread.sleep(3000);
+		driver.findElement(By.xpath("/html/body/div[3]/div[3]/div[2]/article/section/div/form/div/div/div/div/div/div/div/div[1]/div[1]/div/input[1]")).sendKeys("60011912091790");
+		Thread.sleep(3000);
+		driver.findElement(By.xpath("//div[@tabindex='-1']")).click();
+		
+		driver.findElement(By.xpath("//*[@id=\"claim_amount\"]")).sendKeys("10");
+		Thread.sleep(1000);
+		driver.findElement(By.xpath("//*[@id=\"non_claim_amount\"]")).sendKeys("10");
+		Thread.sleep(1000);
+		driver.findElement(By.xpath("/html/body/div[3]/div[3]/div[2]/article/section/div/form/div/div/div/div/div/div/div/div[1]/div[5]/div/div/a[1]")).click();
+		Thread.sleep(1000);
+		driver.findElement(By.xpath("//*[@id=\"date-start\"]")).sendKeys("2021-01-12");
+		Thread.sleep(1000);
+		//driver.findElement(By.xpath("/html/body/div[3]/div[3]/div[2]/article/section/div/form/div/div/div/div/div/div/div/div[5]/div/textarea")).click();
+		Thread.sleep(1000);
+
+		driver.findElement(By.xpath("//*[@id=\"date-end\"]")).sendKeys("2021-01-16");
+		Thread.sleep(1000);
+		//driver.findElement(By.xpath("/html/body/div[3]/div[3]/div[2]/article/section/div/form/div/div/div/div/div/div/div/div[5]/div/textarea")).click();
+
+		driver.findElement(By.xpath("/html/body/div[3]/div[3]/div[2]/article/section/div/form/div/div/div/div/div/div/div/div[5]/div/textarea")).sendKeys("Sample write up");
+		Thread.sleep(1000);
+		driver.findElement(By.xpath("/html/body/div[3]/div[3]/div[2]/article/section/div/form/div/div/div/div/div/div/div/div[6]/div/input")).clear();
+		Thread.sleep(1000);
+		driver.findElement(By.xpath("/html/body/div[3]/div[3]/div[2]/article/section/div/form/div/div/div/div/div/div/div/div[6]/div/input")).sendKeys("2");
+		Thread.sleep(1000);
+		driver.findElement(By.xpath("/html/body/div[3]/div[3]/div[2]/article/section/div/form/div/div/div/div/div/div/div/div[7]/div/input")).clear();
+		Thread.sleep(1000);
+		driver.findElement(By.xpath("/html/body/div[3]/div[3]/div[2]/article/section/div/form/div/div/div/div/div/div/div/div[7]/div/input")).sendKeys("2");
+		Thread.sleep(1000);
+		driver.findElement(By.xpath("/html/body/div[3]/div[3]/div[2]/article/section/div/form/div/div/div/div/div/div/div/div[8]/div/input")).clear();
+		driver.findElement(By.xpath("/html/body/div[3]/div[3]/div[2]/article/section/div/form/div/div/div/div/div/div/div/div[8]/div/input")).sendKeys("2");
+		Thread.sleep(1000);
+		driver.findElement(By.xpath("/html/body/div[3]/div[3]/div[2]/article/section/div/form/div/div/div/div/div/div/div/div[9]/div/input")).clear();
+		driver.findElement(By.xpath("/html/body/div[3]/div[3]/div[2]/article/section/div/form/div/div/div/div/div/div/div/div[9]/div/input")).sendKeys("2");
+		driver.findElement(By.xpath("/html/body/div[3]/div[3]/div[2]/article/section/div/form/div/div/div/div/div/div/div/div[10]/div/input")).clear();
+		driver.findElement(By.xpath("/html/body/div[3]/div[3]/div[2]/article/section/div/form/div/div/div/div/div/div/div/div[10]/div/input")).sendKeys("2");
+		driver.findElement(By.xpath("/html/body/div[3]/div[3]/div[2]/article/section/div/form/div/div/div/div/div/div/div/div[11]/div/input")).clear();
+		driver.findElement(By.xpath("/html/body/div[3]/div[3]/div[2]/article/section/div/form/div/div/div/div/div/div/div/div[11]/div/input")).sendKeys("2");
+		driver.findElement(By.xpath("/html/body/div[3]/div[3]/div[2]/article/section/div/form/div/div/div/div/div/div/div/div[12]/div/input")).clear();
+		driver.findElement(By.xpath("/html/body/div[3]/div[3]/div[2]/article/section/div/form/div/div/div/div/div/div/div/div[12]/div/input")).sendKeys("2");
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("//a[@class='scrollup']")).click();
+		Thread.sleep(2000);
+
+		driver.findElement(By.xpath("/html/body/div[3]/div[3]/div[2]/article/header/ul/li[1]/a")).click();
+	}
+
+}

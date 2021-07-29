@@ -1,0 +1,20 @@
+package pack;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class classone {
+	
+	public static void main(String[] args) {
+		int age=5;
+		
+		
+		
+		if (age < 18) {
+		      throw new ArithmeticException("Access denied - You must be at least 18 years old."); 
+		    } else {
+		      System.out.println("Access granted - You are old enough!"); 
+		    }
+		 } 
+	
+}

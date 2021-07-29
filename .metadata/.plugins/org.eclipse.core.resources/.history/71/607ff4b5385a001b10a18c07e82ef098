@@ -1,0 +1,12 @@
+package PromoTest;
+
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+
+public class aa {
+
+	public static void main(String[] args) {
+		
+		ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("extent.html");
+	}
+
+}

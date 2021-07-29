@@ -1,0 +1,23 @@
+package Datapac;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+public class Datapacclass {
+
+	@Test(priority=-2)
+
+	void meth() {
+
+		System.out.println("method name");
+	}
+	
+	@Test(priority=-1)
+
+	void meth2() {
+
+		System.out.println("method2 name");
+	}
+
+}

@@ -1,0 +1,17 @@
+package Packagemaven;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class classtwotest {
+	
+public void testcasefromclasstwo()
+	
+	{
+		System.setProperty("webdriver.chrome.driver","/home/arjun/Downloads/chromedriver_linux64 (1)/chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://web.whatsapp.com/");
+		
+	}
+
+}

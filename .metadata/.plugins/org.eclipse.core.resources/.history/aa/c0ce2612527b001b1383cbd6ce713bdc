@@ -1,0 +1,28 @@
+package Datapac;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+public class Datapacclass {
+
+	public static void main(String args[])  
+	{ 
+
+	    String str = " A computer science portal portal  for for geeks "; 
+	    String word = "portal"; 
+		    // split the string by spaces in a 
+	    String a[] = str.split(" "); 
+	  
+	    // search for pattern in a 
+	    int count = 0; 
+	    for (int i = 0; i < a.length; i++)  
+	    { 
+	    // if match found increase count 
+	    if (word.equals(a[i])) 
+	        count++; 
+	    } 
+
+	System.out.println("adccdc"+count);
+	
+}}

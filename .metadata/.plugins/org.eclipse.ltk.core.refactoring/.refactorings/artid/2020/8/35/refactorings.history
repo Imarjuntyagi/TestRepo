@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring accessors="true" comment="Delete element from project &apos;artid&apos;&#x0A;- Original project: &apos;artid&apos;&#x0A;- Original element: &apos;artidpackage.HappyTest.java&apos;" description="Delete element" element1="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;artidpackage{HappyTest.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1598183532656" subPackages="false" version="1.0"/>
-</session>

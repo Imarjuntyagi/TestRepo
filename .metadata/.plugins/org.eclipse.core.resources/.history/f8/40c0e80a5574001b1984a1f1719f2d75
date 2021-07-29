@@ -1,8 +1,0 @@
-package NewPAck;
-
-public class NewPAckclass {
-
-public static void main(String[] args) {
-	System.out.println("kjedjkbedbk3ib3e");
-}
-}
